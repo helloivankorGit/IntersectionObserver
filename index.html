@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Animations with IntersectionObserver</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+
+<body>
+    <section class="js_hidden animation animation--up">
+        <h1>Scroll Animations with IntersectionObserver</h1>
+        <p>Scroll down and you will see the magic</p>
+    </section>
+
+    <br style="padding-bottom: 50vh;">
+
+    <section class="js_hidden animation animation--right">
+        <div class="flex">
+            <img src="./img/awesome.png" class="img" alt="awesome">
+            <h2>Cool, isn't it?</h2>
+        </div>
+    </section>
+
+    <section class="js_hidden animation animation--rotate">
+        <h2>You can do your own tricks</h2>
+    </section>
+
+    <section>
+        <h2>It's really cool</h2>
+        <div class="logos">
+            <div class="logo js_hidden animation animation--right" style="--order: 1;">
+                <img src="https://api.dicebear.com/6.x/adventurer/svg?seed=Mimi" alt="avatar" />
+            </div>
+            <div class="logo js_hidden animation animation--right" style="--order: 2;">
+                <img src="https://api.dicebear.com/6.x/adventurer/svg?seed=Chester" alt="avatar" />
+            </div>
+            <div class="logo js_hidden animation animation--right" style="--order: 3;">
+                <img src="https://api.dicebear.com/6.x/adventurer/svg?seed=Bandit" alt="avatar" />
+            </div>
+            <div class="logo js_hidden animation animation--right" style="--order: 4;">
+                <img src="https://api.dicebear.com/6.x/adventurer/svg?seed=Molly" alt="avatar" />
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
