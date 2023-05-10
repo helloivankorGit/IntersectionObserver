@@ -1,4 +1,4 @@
-**IntersectionObserver -  https://helloivankorgit.github.io/IntersectionObserver**
+**JS IntersectionObserver -  https://helloivankorgit.github.io/IntersectionObserver**
 
 Learn how to implement scroll animations with HTML, CSS, and JavaScript. Use the JS IntersectionObserver and CSS transitions to implement a native "animate on scroll" effect that works in any browser.
 
